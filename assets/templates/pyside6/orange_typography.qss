@@ -1,0 +1,42 @@
+QWidget {
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+QLabel#pageTitle {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+QLabel#heading1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+QLabel#heading2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+QLabel#heading3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+QLabel#sectionTitle,
+QLabel#heading5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+QLabel#bodyText {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+QLabel#smallText {
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,62 @@
+QWidget {
+    background-color: #f4f4f4; /* ODS surface */
+    color: #000000; /* ODS text primary */
+}
+
+QFrame#panel,
+QWidget#panel {
+    background-color: #ffffff; /* ODS panel */
+    border: 1px solid #cccccc; /* ODS border */
+}
+
+QPushButton#primaryButton {
+    background-color: #f15e00; /* ODS accessible orange */
+    color: #000000;
+    border: 1px solid #f15e00;
+}
+
+QPushButton#primaryButton:hover {
+    background-color: #ff7900; /* ODS brand orange */
+    border-color: #ff7900;
+}
+
+QPushButton#secondaryButton {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+QLineEdit,
+QComboBox,
+QTextEdit,
+QPlainTextEdit {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+    selection-background-color: #f15e00;
+    selection-color: #000000;
+}
+
+QLineEdit:focus,
+QComboBox:focus,
+QTextEdit:focus,
+QPlainTextEdit:focus,
+QPushButton:focus {
+    border: 2px solid #f15e00; /* ODS focus */
+}
+
+QLabel[status="error"] {
+    color: #db0002;
+}
+
+QLabel[status="success"] {
+    color: #0a4715;
+}
+
+QLabel[status="warning"] {
+    color: #3d3100;
+}
+
+QLabel[muted="true"] {
+    color: #666666;
+}

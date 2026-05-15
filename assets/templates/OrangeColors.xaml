@@ -1,0 +1,107 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Raw OUDS / Orange palette tokens. -->
+    <Color x:Key="OdsColorOrange500">#FF7900</Color>
+    <Color x:Key="OdsColorOrange550">#F15E00</Color>
+
+    <Color x:Key="OdsColorWarmGray100">#F9F5F0</Color>
+    <Color x:Key="OdsColorWarmGray900">#353228</Color>
+
+    <Color x:Key="OdsColorWhite">#FFFFFF</Color>
+    <Color x:Key="OdsColorBlack">#000000</Color>
+
+    <Color x:Key="OdsColorLightGray80">#F4F4F4</Color>
+    <Color x:Key="OdsColorLightGray160">#EEEEEE</Color>
+    <Color x:Key="OdsColorLightGray240">#E0E0E0</Color>
+    <Color x:Key="OdsColorLightGray320">#D6D6D6</Color>
+    <Color x:Key="OdsColorLightGray400">#CCCCCC</Color>
+    <Color x:Key="OdsColorLightGray800">#999999</Color>
+    <Color x:Key="OdsColorLightGray960">#858585</Color>
+
+    <Color x:Key="OdsColorDarkGray240">#666666</Color>
+    <Color x:Key="OdsColorDarkGray320">#5C5C5C</Color>
+    <Color x:Key="OdsColorDarkGray400">#555555</Color>
+    <Color x:Key="OdsColorDarkGray640">#333333</Color>
+    <Color x:Key="OdsColorDarkGray720">#272727</Color>
+    <Color x:Key="OdsColorDarkGray800">#1F1F1F</Color>
+    <Color x:Key="OdsColorDarkGray880">#141414</Color>
+
+    <Color x:Key="OdsColorSuccess300">#94F0A4</Color>
+    <Color x:Key="OdsColorSuccess500">#3DE35A</Color>
+    <Color x:Key="OdsColorSuccess900">#0A4715</Color>
+
+    <Color x:Key="OdsColorError100">#FFE5E6</Color>
+    <Color x:Key="OdsColorError200">#FFB2B3</Color>
+    <Color x:Key="OdsColorError300">#FF8081</Color>
+    <Color x:Key="OdsColorError600">#DB0002</Color>
+    <Color x:Key="OdsColorError700">#B20002</Color>
+    <Color x:Key="OdsColorError800">#800001</Color>
+    <Color x:Key="OdsColorError900">#4D0001</Color>
+
+    <Color x:Key="OdsColorInfo300">#8AD5FF</Color>
+    <Color x:Key="OdsColorInfo500">#26B2FF</Color>
+    <Color x:Key="OdsColorInfo900">#003857</Color>
+
+    <Color x:Key="OdsColorWarning200">#FFED99</Color>
+    <Color x:Key="OdsColorWarning300">#FFE270</Color>
+    <Color x:Key="OdsColorWarning500">#FFD000</Color>
+    <Color x:Key="OdsColorWarning900">#3D3100</Color>
+
+    <Color x:Key="OdsColorDecorativeSky400">#4AB4E6</Color>
+    <Color x:Key="OdsColorDecorativeEmerald500">#50BE87</Color>
+    <Color x:Key="OdsColorDecorativeAmber500">#FFB400</Color>
+    <Color x:Key="OdsColorDecorativeAmethyst400">#A885D8</Color>
+    <Color x:Key="OdsColorDecorativePink200">#FFB4E6</Color>
+
+    <!-- Semantic aliases for WinUI app usage. -->
+    <Color x:Key="OdsAccentColor">#F15E00</Color>
+    <Color x:Key="OdsBrandOrangeColor">#FF7900</Color>
+    <Color x:Key="OdsSurfaceColor">#F4F4F4</Color>
+    <Color x:Key="OdsPanelColor">#FFFFFF</Color>
+    <Color x:Key="OdsBorderColor">#CCCCCC</Color>
+    <Color x:Key="OdsTextPrimaryColor">#000000</Color>
+    <Color x:Key="OdsTextSecondaryColor">#666666</Color>
+    <Color x:Key="OdsTextMutedColor">#858585</Color>
+    <Color x:Key="OdsErrorColor">#DB0002</Color>
+    <Color x:Key="OdsSuccessColor">#3DE35A</Color>
+    <Color x:Key="OdsWarningColor">#FFD000</Color>
+    <Color x:Key="OdsInfoColor">#26B2FF</Color>
+    <Color x:Key="OdsFocusColor">#F15E00</Color>
+
+    <!-- Dark-mode aliases adapted from Boosted contextual dark mode. -->
+    <Color x:Key="OdsDarkSurfaceColor">#000000</Color>
+    <Color x:Key="OdsDarkPanelColor">#141414</Color>
+    <Color x:Key="OdsDarkPanelSubtleColor">#1F1F1F</Color>
+    <Color x:Key="OdsDarkBorderColor">#666666</Color>
+    <Color x:Key="OdsDarkTextPrimaryColor">#FFFFFF</Color>
+    <Color x:Key="OdsDarkTextSecondaryColor">#999999</Color>
+    <Color x:Key="OdsDarkAccentColor">#FF7900</Color>
+    <Color x:Key="OdsDarkFocusColor">#FF7900</Color>
+
+    <SolidColorBrush x:Key="OdsAccentBrush" Color="{StaticResource OdsAccentColor}" />
+    <SolidColorBrush x:Key="OdsBrandOrangeBrush" Color="{StaticResource OdsBrandOrangeColor}" />
+    <SolidColorBrush x:Key="OdsOrangeBrush" Color="{StaticResource OdsAccentColor}" />
+    <SolidColorBrush x:Key="OdsBlackBrush" Color="{StaticResource OdsColorBlack}" />
+    <SolidColorBrush x:Key="OdsWhiteBrush" Color="{StaticResource OdsColorWhite}" />
+    <SolidColorBrush x:Key="OdsSurfaceBrush" Color="{StaticResource OdsSurfaceColor}" />
+    <SolidColorBrush x:Key="OdsPanelBrush" Color="{StaticResource OdsPanelColor}" />
+    <SolidColorBrush x:Key="OdsBorderBrush" Color="{StaticResource OdsBorderColor}" />
+    <SolidColorBrush x:Key="OdsTextPrimaryBrush" Color="{StaticResource OdsTextPrimaryColor}" />
+    <SolidColorBrush x:Key="OdsTextSecondaryBrush" Color="{StaticResource OdsTextSecondaryColor}" />
+    <SolidColorBrush x:Key="OdsTextMutedBrush" Color="{StaticResource OdsTextMutedColor}" />
+    <SolidColorBrush x:Key="OdsErrorBrush" Color="{StaticResource OdsErrorColor}" />
+    <SolidColorBrush x:Key="OdsSuccessBrush" Color="{StaticResource OdsSuccessColor}" />
+    <SolidColorBrush x:Key="OdsWarningBrush" Color="{StaticResource OdsWarningColor}" />
+    <SolidColorBrush x:Key="OdsInfoBrush" Color="{StaticResource OdsInfoColor}" />
+    <SolidColorBrush x:Key="OdsFocusBrush" Color="{StaticResource OdsFocusColor}" />
+    <SolidColorBrush x:Key="OdsDarkSurfaceBrush" Color="{StaticResource OdsDarkSurfaceColor}" />
+    <SolidColorBrush x:Key="OdsDarkPanelBrush" Color="{StaticResource OdsDarkPanelColor}" />
+    <SolidColorBrush x:Key="OdsDarkPanelSubtleBrush" Color="{StaticResource OdsDarkPanelSubtleColor}" />
+    <SolidColorBrush x:Key="OdsDarkBorderBrush" Color="{StaticResource OdsDarkBorderColor}" />
+    <SolidColorBrush x:Key="OdsDarkTextPrimaryBrush" Color="{StaticResource OdsDarkTextPrimaryColor}" />
+    <SolidColorBrush x:Key="OdsDarkTextSecondaryBrush" Color="{StaticResource OdsDarkTextSecondaryColor}" />
+    <SolidColorBrush x:Key="OdsDarkAccentBrush" Color="{StaticResource OdsDarkAccentColor}" />
+    <SolidColorBrush x:Key="OdsDarkFocusBrush" Color="{StaticResource OdsDarkFocusColor}" />
+</ResourceDictionary>

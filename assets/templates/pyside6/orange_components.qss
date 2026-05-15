@@ -1,0 +1,118 @@
+QFrame#panel,
+QWidget#panel {
+    background-color: #ffffff; /* ODS panel */
+    border: 1px solid #cccccc; /* ODS border */
+    border-radius: 8px;
+}
+
+QFrame#surfacePanel,
+QWidget#surfacePanel {
+    background-color: #f4f4f4; /* ODS surface */
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+QFrame#statusPanel,
+QWidget#statusPanel {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-bottom: 3px solid #f15e00;
+    border-radius: 8px;
+}
+
+QPushButton#primaryButton {
+    background-color: #f15e00; /* ODS accessible orange */
+    color: #000000;
+    border: 1px solid #f15e00;
+    border-radius: 6px;
+    min-height: 36px;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+QPushButton#primaryButton:hover {
+    background-color: #ff7900; /* ODS brand orange */
+    border-color: #ff7900;
+}
+
+QPushButton#secondaryButton {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    min-height: 36px;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+QPushButton#destructiveButton {
+    background-color: #db0002;
+    color: #ffffff;
+    border: 1px solid #db0002;
+    border-radius: 6px;
+    min-height: 36px;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+QPushButton#iconButton {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    min-width: 36px;
+    min-height: 36px;
+    padding: 8px;
+}
+
+QLineEdit,
+QComboBox,
+QTextEdit,
+QPlainTextEdit {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    min-height: 36px;
+    padding: 6px 8px;
+    selection-background-color: #f15e00;
+    selection-color: #000000;
+}
+
+QLineEdit[required="true"],
+QComboBox[required="true"] {
+    border-color: #000000;
+}
+
+QLineEdit[error="true"],
+QComboBox[error="true"],
+QTextEdit[error="true"],
+QPlainTextEdit[error="true"] {
+    border-color: #db0002;
+}
+
+QLineEdit:focus,
+QComboBox:focus,
+QTextEdit:focus,
+QPlainTextEdit:focus,
+QPushButton:focus {
+    border: 2px solid #f15e00; /* ODS focus */
+}
+
+QFrame#infoBar {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+QFrame#infoBar[severity="success"] {
+    border-color: #3de35a;
+}
+
+QFrame#infoBar[severity="warning"] {
+    border-color: #ffd000;
+}
+
+QFrame#infoBar[severity="error"] {
+    border-color: #db0002;
+}

@@ -1,0 +1,38 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="OdsTextBoxStyle" TargetType="TextBox">
+        <Setter Property="MinHeight" Value="36" />
+        <Setter Property="CornerRadius" Value="{StaticResource OdsControlCornerRadius}" />
+        <Setter Property="BorderBrush" Value="{StaticResource OdsBorderBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource OdsTextPrimaryBrush}" />
+        <Setter Property="Background" Value="{StaticResource OdsWhiteBrush}" />
+        <Setter Property="PlaceholderForeground" Value="{StaticResource OdsTextMutedBrush}" />
+    </Style>
+
+    <Style x:Key="OdsRequiredTextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource OdsTextBoxStyle}">
+        <Setter Property="BorderBrush" Value="{StaticResource OdsTextPrimaryBrush}" />
+    </Style>
+
+    <Style x:Key="OdsErrorTextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource OdsTextBoxStyle}">
+        <Setter Property="BorderBrush" Value="{StaticResource OdsErrorBrush}" />
+    </Style>
+
+    <Style x:Key="OdsComboBoxStyle" TargetType="ComboBox">
+        <Setter Property="MinHeight" Value="36" />
+        <Setter Property="CornerRadius" Value="{StaticResource OdsControlCornerRadius}" />
+        <Setter Property="BorderBrush" Value="{StaticResource OdsBorderBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource OdsTextPrimaryBrush}" />
+        <Setter Property="Background" Value="{StaticResource OdsWhiteBrush}" />
+        <Setter Property="PlaceholderForeground" Value="{StaticResource OdsTextMutedBrush}" />
+    </Style>
+
+    <Style x:Key="OdsRequiredComboBoxStyle" TargetType="ComboBox" BasedOn="{StaticResource OdsComboBoxStyle}">
+        <Setter Property="BorderBrush" Value="{StaticResource OdsTextPrimaryBrush}" />
+    </Style>
+
+    <Style x:Key="OdsErrorComboBoxStyle" TargetType="ComboBox" BasedOn="{StaticResource OdsComboBoxStyle}">
+        <Setter Property="BorderBrush" Value="{StaticResource OdsErrorBrush}" />
+    </Style>
+</ResourceDictionary>
