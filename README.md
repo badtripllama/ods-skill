@@ -1,2 +1,2 @@
 # ods-skill
-orange-design-system skill for models.
+orange-design-system skill for agents.
