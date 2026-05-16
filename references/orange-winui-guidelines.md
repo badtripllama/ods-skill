@@ -81,7 +81,7 @@ WinUI semantic mapping:
 - Use 8px spacing increments.
 - Use 24px to 32px page padding.
 - Use 16px to 20px panel padding.
-- Keep cards/panels at 8px corner radius or less.
+- Use square corners for cards, panels, buttons, and inputs by default. Keep `OdsPanelCornerRadius` and `OdsControlCornerRadius` at `0` unless the target app has an explicit local design-system token for rounded corners.
 - Avoid nested panels unless there is a real grouping need.
 - Use full-width bands or grids for major regions.
 

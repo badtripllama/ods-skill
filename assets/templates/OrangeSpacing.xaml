@@ -15,6 +15,6 @@
     <Thickness x:Key="OdsControlPadding">12,8</Thickness>
     <Thickness x:Key="OdsSectionMargin">0,24,0,0</Thickness>
 
-    <CornerRadius x:Key="OdsPanelCornerRadius">8</CornerRadius>
-    <CornerRadius x:Key="OdsControlCornerRadius">6</CornerRadius>
+    <CornerRadius x:Key="OdsPanelCornerRadius">0</CornerRadius>
+    <CornerRadius x:Key="OdsControlCornerRadius">0</CornerRadius>
 </ResourceDictionary>

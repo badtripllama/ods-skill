@@ -59,6 +59,6 @@ Copy or adapt these into the target app instead of retyping styles from memory.
 - Do not hardcode control spacing in views when a spacing token exists.
 - Do not create marketing-style screens for operational tools.
 - Do not place cards inside cards.
-- Do not use rounded corners above 8px unless the local design system says so.
+- Use square corners by default for Orange/OUDS/Boosted-derived UI. Keep border-radius tokens at `0` unless the target app has an explicit local design-system token for rounded corners.
 - Do not use emoji.
 - Use direct, functional UI text.
